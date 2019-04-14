@@ -6,3 +6,5 @@ Zabbix userparameters to monitor:
   - redis sentinel number of usable sentinels for master
 
 Host and port to connect to redis are aldo set as item parameters.
+
+License: WTFPL(do whatever you want).
