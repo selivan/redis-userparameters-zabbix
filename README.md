@@ -1,5 +1,8 @@
-Userparameters for Zabbix to monitor:
-    - redis server info - any key value
-    - redis server config - any key value
-    - redis sentinel master ckquorum
-    - redis sentinel master number of usable sentinels
+Zabbix userparameters to monitor:
+
+  - redis server info - any key value from any section
+  - redis server config - any config parameter value
+  - redis sentinel ckquorum for master
+  - redis sentinel number of usable sentinels for master
+
+Host and port to connect to redis are aldo set as item parameters.
